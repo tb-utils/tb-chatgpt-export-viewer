@@ -1,0 +1,30 @@
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated viewers, including previous/default names
+/chatgpt_export_viewer/
+/chatgpt_viewer/
+/chat_export_viewer/
+/chat_export_viewer_*/
+/*_tmp/
+/*_work/
+/*_old/
+
+# Never commit private ChatGPT export inputs or extracted asset data
+conversations.json
+chat.html
+library_files.json
+conversation_asset_file_names.json
+*.dat
+*.zip
+search_data.js
+
+# Generated viewer directories/files if placed in project root
+/index.html
+/chats/
+/assets/
+/sites/
